@@ -35,6 +35,7 @@ for (int i = 0; i < 100; i++)
 }
 
 cts.Cancel();
+Console.Read();
 class WS
 {
     ClientWebSocket ws;
