@@ -3,8 +3,7 @@ using System.Net.WebSockets;
 using System.Text;
 
 string[] urls = new string[] { "wss://stream.binance.com:9443/ws", "wss://dstream.binance.com/ws", "wss://fstream.binance.com/ws" };
-//urls = urls.Concat(urls).ToArray();
-//urls = urls.Concat(urls).ToArray();
+
 List<WS> WebSockets = new List<WS>();
 
 CancellationTokenSource cts = new CancellationTokenSource();
